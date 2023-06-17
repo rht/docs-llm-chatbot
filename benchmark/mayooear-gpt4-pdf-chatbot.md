@@ -155,6 +155,7 @@ sources:
 - docs/git/overview.md
 
 # 9. How do I get an account's username via the Zulip Python API?
+
 I'm sorry, but the given context does not provide information on how to retrieve a user's username using the Zulip Python API.
 
 # 10. How I set up a bot for Zulip?

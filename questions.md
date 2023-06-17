@@ -6,6 +6,6 @@
 # 6. Can you explain the rough working of Zulip?
 # 7. Can you describe Zulip architecture, as in, its inner working?
 # 8. can you describe an overview of Zulip architecture?
-# 9. how do I get an account's username via the Zulip Python API?
+# 9. How do I get an account's username via the Zulip Python API?
 # 10. How I set up a bot for Zulip?
 # 11. What framework does Zulip use for its frontend?
