@@ -1,6 +1,7 @@
 Tool used: https://github.com/mayooear/gpt4-pdf-chatbot-langchain.
 
 To make it work:
+- [Modify the repo to ingest txt files](https://github.com/mayooear/gpt4-pdf-chatbot-langchain/issues/84)
 - Choose 1536 as the dimension of the vector
 - [Update @pinecone-database/pinecone to the latest version](https://github.com/mayooear/gpt4-pdf-chatbot-langchain/issues/97#issuecomment-1591960768)
 
