@@ -1,3 +1,15 @@
+With the prompt
+```python
+DEFAULT_TEXT_QA_PROMPT_TMPL = (
+    "Context information is below.\n"
+    "---------------------\n"
+    "{context_str}\n"
+    "---------------------\n"
+    "Given the context information and not prior knowledge, "
+    "answer the question: {query_str}\n"
+)
+```
+
 # 1. How do I configure LDAP authentication in Zulip?
 
 To configure LDAP authentication in Zulip, you can refer to the Help Center documentation on the Zulip website. Specifically, you can refer to the section on "Configuring LDAP authentication" for instructions on how to set up LDAP authentication.
