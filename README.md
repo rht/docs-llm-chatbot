@@ -3,12 +3,21 @@ Tools being compared:
 - mayooear https://github.com/mayooear/gpt4-pdf-chatbot-langchain
 - LlamaIndex https://github.com/jerryjliu/llama_index
 - Dagster https://github.com/petehunt/langchain-github-bot
+- Onboard https://www.getonboard.dev/chat/zulip/zulip
 
-|               | Paper QA             | mayooear | LlamaIndex default| Dagster            |
+My personal rank:
+1. Onboard
+2. Mendable
+3. Mayo
+4. Paper QA
+5. Dagster
+6. Unoptimized LlamaIndex
+
+|               | Paper QA            | mayooear | LlamaIndex default| Dagster            |
 | ------------- | ------------------- | -------- | ----------------- | ------------------- |
 |embedding model| ?                   | ?        | ?                 | ?                   |
 |vector DB      | FAISS               | Pinecone | SimpleVectorStore | FAISS               |
-| similarity    | FAISS (L2 distance) | Pinecone | cosine            | FAISS (L2 distance) |
+| similarity    | FAISS (L2 distance) | cosine   | cosine            | FAISS (L2 distance) |
 |response mode  | tree_summarize      | ?        | compact           | langchain stuff     |
 
 All of them use GPT-3.5.
